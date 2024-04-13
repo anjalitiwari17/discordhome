@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+             background-image: url(./photos/welcomebackgroung.jpeg);
+             background-size: cover;
+        }
+
+        .backbutton {
+
+            font-size: 20px;
+            text-decoration: none;
+            margin-left: 3rem;
+            margin-top: 2px;
+            font-size: 25px;
+            font-weight: 900;
+
+            /* background-color: rgb(247, 247, 242) ; */
+
+        }
+
+        .backbutton:hover {
+            text-decoration: underline;
+            color: red;
+            font-size: 30px;
+        }
+
+        .welcome {
+            text-align: center;
+            margin-top: 40vh;
+            color: red;
+            font-size: 65px;
+            animation-name: twinkling;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            /* animation-timing-function: ease-in; */
+        }
+
+        @keyframes twinkling {
+            0% {
+                opacity: 1
+            }
+
+            50% {
+                opacity: 0.5;
+            }
+
+            100% {
+                opacity: 2;
+            }
+            from{
+              font-size:65px;
+            }
+            To{
+            font-size: 75px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a href="./index.html" class="backbutton">
+       <</a>
+            <h1 class="welcome">WELCOME</h1>
+
+</body>
+
+</html>
